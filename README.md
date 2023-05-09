@@ -3,7 +3,6 @@ Code used to develop and train the 1/18 scale self-driving car that competed in 
 
 # Reward Function Template for waypoints
 def reward_function(params):
-
     center_variance = params["distance_from_center"] / params["track_width"]
     #racing line
     left_lane = []
@@ -45,5 +44,5 @@ def reward_function(params):
     
     return float(reward)
     
-    # AWS DeepRacer
-    https://aws.amazon.com/en/deepracer/
+# AWS DeepRacer
+https://aws.amazon.com/en/deepracer/
